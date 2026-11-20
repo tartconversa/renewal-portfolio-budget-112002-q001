@@ -1,0 +1,3 @@
+predecessor,successor,shared_site,repeat_dig_cost
+P-01,P-02,true,90000
+P-03,P-02,false,0

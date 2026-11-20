@@ -1,0 +1,4 @@
+project_id,district,work_type,estimate,confirmed_cost,year,contracted
+P-01,North,pipe,480000,520000,2027,true
+P-02,North,street,310000,,2027,false
+P-03,South,service,270000,260000,2027,true
