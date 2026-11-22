@@ -1,0 +1,30 @@
+{
+  "name": "next_year_review",
+  "description": "成本核定与资金调整后的重排情景。修订必须带 as_of、reason 与 source。",
+  "cost_basis": "confirmed",
+  "strategies": ["benefit", "cost", "district", "sequence"],
+  "approved_strategy": "benefit",
+  "allow_same_year_predecessor": false,
+  "search_node_limit": 300000,
+  "cost_revisions": [
+    {
+      "project_id": "P-02",
+      "confirmed_cost": 380000,
+      "as_of": "2027-02-15",
+      "reason": "施工图预算核定，高于原估算",
+      "source": "cost-review-2027-02/P-02"
+    }
+  ],
+  "funding_adjustments": [
+    {"fund_id": "F-01", "year": 2027, "cap": 1000000}
+  ],
+  "funding_additions": [
+    {
+      "fund_id": "F-04",
+      "year": 2028,
+      "category": "drainage",
+      "cap": 500000,
+      "allowed_work": "pipe;street"
+    }
+  ]
+}

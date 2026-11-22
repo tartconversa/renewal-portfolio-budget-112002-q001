@@ -1,8 +1,11 @@
 [project]
-name = "renewal-analytics-starter"
+name = "renewal-analytics"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+renewal-analytics = "renewal_analytics.cli:main"
 
 [tool.unittest]
 start-directory = "tests"
